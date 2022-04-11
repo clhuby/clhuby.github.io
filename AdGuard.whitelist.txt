@@ -1,0 +1,189 @@
+#My whitelist
+mobile.pipe.aria.microsoft.com
+app-measurement.com
+#https://forum.level1techs.com/t/background-server-calls-insanity/137370
+
+browser.pipe.aria.microsoft.com
+
+#Google (Maps, Youtube, etc)
+#Google Maps and other Google services
+clients4.google.com
+clients2.google.com
+
+#YouTube history
+s.youtube.com
+video-stats.l.google.com
+
+#Google Play
+#As described here 1.6k.
+android.clients.google.com
+
+#Google Keep
+#The Google Keep Chrome App requires these domains to be whitelisted in order to sync.
+reminders-pa.googleapis.com
+firestore.googleapis.com
+
+#Gmail (Google Mail)
+#iOS app requires this to be whitelisted for the app to connect.
+googleapis.l.google.com
+
+#Microsoft (Windows, Office, Skype, etc)
+#Windows uses this to verify connectivity to Internet
+www.msftncsi.com
+
+#Microsoft Web Pages (Outlook, Office365, Live, Microsoft.com 283…)
+outlook.office365.com
+products.office.com
+c.s-microsoft.com
+i.s-microsoft.com
+login.live.com
+#
+login.microsoftonline.com
+#Backup bitlocker recovery key to Microsoft account
+g.live.com
+
+#Microsoft Store (Windows Store)
+dl.delivery.mp.microsoft.com
+geo-prod.do.dsp.mp.microsoft.com
+displaycatalog.mp.microsoft.com
+
+#Xbox Live
+#This domain is used for sign-ins, creating new accounts, and recovering existing Microsoft accounts on your (confirmed by Microsoft)
+clientconfig.passport.net
+#These domains are used for Xbox Live Achievements (confirmed by Microsoft)
+v10.events.data.microsoft.com
+v20.events.data.microsoft.com
+
+#Used for Xbox Live Messaging (post)
+client-s.gateway.messenger.live.com
+#There are several domains discovered initially on Reddit 295 and /r/xboxone 222, which were also confirmed by Microsoft as being required by Xbox Live for full functionality.
+xbox.ipv6.microsoft.com
+device.auth.xboxlive.com
+www.msftncsi.com
+title.mgt.xboxlive.com
+xsts.auth.xboxlive.com
+title.auth.xboxlive.com
+ctldl.windowsupdate.com
+attestation.xboxlive.com
+xboxexperiencesprod.experimentation.xboxlive.com
+xflight.xboxlive.com
+cert.mgt.xboxlive.com
+xkms.xboxlive.com
+def-vef.xboxlive.com
+notify.xboxlive.com
+help.ui.xboxlive.com
+licensing.xboxlive.com
+eds.xboxlive.com
+www.xboxlive.com
+v10.vortex-win.data.microsoft.com
+settings-win.data.microsoft.com
+
+#Skype
+#See the GitHub Topic 386 on these domains.
+s.gateway.messenger.live.com
+client-s.gateway.messenger.live.com
+ui.skype.com
+pricelist.skype.com
+apps.skype.com
+m.hotmail.com
+sa.symcb.com
+#/
+s1.symcb.com
+s2.symcb.com
+s3.symcb.com
+s4.symcb.com
+s5.symcb.com
+
+#Microsoft Office
+#Reddit link - r/pihole - MS Office issues 301
+officeclient.microsoft.com
+
+#Facebook, Facebook Messenger
+upload.facebook.com
+creative.ak.fbcdn.net
+external-lhr0-1.xx.fbcdn.net
+external-lhr1-1.xx.fbcdn.net
+external-lhr10-1.xx.fbcdn.net
+external-lhr2-1.xx.fbcdn.net
+external-lhr3-1.xx.fbcdn.net
+external-lhr4-1.xx.fbcdn.net
+external-lhr5-1.xx.fbcdn.net
+external-lhr6-1.xx.fbcdn.net
+external-lhr7-1.xx.fbcdn.net
+external-lhr8-1.xx.fbcdn.net
+external-lhr9-1.xx.fbcdn.net
+fbcdn-creative-a.akamaihd.net
+scontent-lhr3-1.xx.fbcdn.net
+scontent.xx.fbcdn.net
+scontent.fgdl5-1.fna.fbcdn.net
+graph.facebook.com
+b-graph.facebook.com
+connect.facebook.com
+cdn.fbsbx.com
+api.facebook.com
+edge-mqtt.facebook.com
+mqtt.c10r.facebook.com
+portal.fb.com
+star.c10r.facebook.com
+star-mini.c10r.facebook.com
+b-api.facebook.com fb.me
+
+#Dropbox
+#As described here 693:
+dl.dropboxusercontent.com
+ns1.dropbox.com
+ns2.dropbox.com
+
+#Apple Music
+itunes.apple.com
+s.mzstatic.com
+
+#Google Chrome (to update on ubuntu)
+dl.google.com
+
+#Apple ID
+appleid.apple.com
+
+#NVIDIA GeForce Experience
+#GFE requires this 114 to download driver updates (or events.gfe.nvidia.com 48, but that is also used for telemetry).
+gfwsl.geforce.com
+
+#Bing Maps Platform
+#as described here 42.
+dev.virtualearth.net
+ecn.dev.virtualearth.net
+t0.ssl.ak.dynamic.tiles.virtualearth.net
+t0.ssl.ak.tiles.virtualearth.net
+
+#Google Play Android updates
+android.clients.google.com
+
+#Captive-portal tests
+#These domains are checked by the operating systems when connecting via wifi, and if they don’t get the response they expect, they may try to open a wifi login page or similar as they believe they are located behind a captive portal.
+#Android/Chrome
+connectivitycheck.android.com
+android.clients.google.com
+clients3.google.com
+connectivitycheck.gstatic.com
+#Windows/Microsoft
+msftncsi.com
+www.msftncsi.com
+ipv6.msftncsi.com
+
+#iOS/Apple
+#(note that this does not cover all domains used older iOS versions)
+captive.apple.com
+gsp1.apple.com
+www.apple.com
+www.appleiphonecell.com
+
+#Manually added by user
+img.blesk.cz
+thepiratebay.org
+
+clickserve.dartsearch.net
+www.googleadservices.com
+ad.doubleclick.net
+img.blesk.cz
+
+#https://discourse.pi-hole.net/t/commonly-whitelisted-domains/212
