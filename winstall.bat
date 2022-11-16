@@ -1,0 +1,1 @@
+winget install --id=Google.Chrome -e  && winget install --id=Mozilla.Firefox -e  && winget install --id=TheDocumentFoundation.LibreOffice -e  && winget install --id=GIMP.GIMP -e  && winget install --id=Audacity.Audacity -e  && winget install --id=Inkscape.Inkscape -e  && winget install --id=7zip.7zip -e  && winget install --id=VideoLAN.VLC -e 
