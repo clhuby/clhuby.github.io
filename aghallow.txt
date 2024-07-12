@@ -1,0 +1,23 @@
+##Carls test allowlist
+##Adblock syntax for use with Adguard Home
+
+#Google
+||google.com
+||youtube.com
+||googleapis.com
+||android.com
+||gstatic.com
+
+#Apple
+||apple.com
+
+#Microsoft
+||office365.com
+||live.com
+||xboxlive.com
+||msftncsi.com
+||microsoft.com
+
+
+
+
