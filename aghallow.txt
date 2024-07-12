@@ -16,6 +16,7 @@
 
 #Microsoft
 ||office365.com
+||office.com
 ||live.com
 ||xboxlive.com
 ||msftncsi.com
@@ -28,3 +29,5 @@
 ||sonarr.tv
 ||epicgames.com
 
+#Sharanya Work
+||sentry.io
