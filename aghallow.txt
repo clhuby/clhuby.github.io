@@ -30,5 +30,5 @@
 ||sonarr.tv
 ||epicgames.com
 
-#Sharanya Work
+#S Work
 ||sentry.io
