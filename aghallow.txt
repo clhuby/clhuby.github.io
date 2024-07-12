@@ -7,6 +7,9 @@
 ||googleapis.com
 ||android.com
 ||gstatic.com
+||googleusercontent.com
+||gvt1.com
+||google-analytics.com
 
 #Apple
 ||apple.com
@@ -17,7 +20,11 @@
 ||xboxlive.com
 ||msftncsi.com
 ||microsoft.com
+||msftconnecttest.com
+||passport.net
+||windows.com
 
-
-
+#Other
+||sonarr.tv
+||epicgames.com
 
